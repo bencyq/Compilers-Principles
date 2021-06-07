@@ -2,7 +2,8 @@ import numpy as np
 
 Keyword = ["if", "main", "else", "void", "return", "while", "for", "do", "break", "continue", "int", "char", "double",
            "float", "case", "const"]  # 关键字
-operator = ["=", "+", "-", "*", "/", "%", "==", "!=", "<", ">", "<=", ">=", "!", "&&", "||"]  # 运算符
+operator = ["=", "+", "-", "*", "/", "%", "==", "!=",
+            "<", ">", "<=", ">=", "!", "&&", "||"]  # 运算符
 separater = [";", ",", "[", "]", "{", "}", "(", ")"]  # 分隔符
 identifier_alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
                     'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
@@ -29,3 +30,89 @@ def inputError(word, line):  # 输入错误信息  单词  行号
         ErrorWord[ErrorNumber][0] = '缺少*/'
         ErrorWord[ErrorNumber][1] = ''
         ErrorWord[ErrorNumber][2] = str(line)
+
+
+def toChar():
+    return 0
+
+
+def isalpha(n):
+    for i in range(53):
+        if identifier_alpha[i] == n:
+            return True
+    return False
+
+
+def isDigit(n):
+    for i in range(10):
+        if digit[0] == n:
+            return True
+    return False
+
+
+def isIdent(word):  # 判断是否为标识符
+    if not(isalpha(word[0])):
+        return False
+    for i in range(1, len(word)):
+        if not(isalpha(word[i])) and isDigit(word[i]):
+            return False
+    return True
+
+
+def isNonzero_digit(n):
+    for i in range(9):
+        if nonzero_digit[i] == n:
+            return True
+    return False
+
+
+def isDeciamlConst(word):
+    if not(isNonzero_digit(word[0])):
+        return False
+    for i in range(len(word)):
+        if not(isDigit):
+            return False
+    return True
+
+
+def isOctalDigit(n):
+    for i in range(8):
+        if octal_digit[i] == n:
+            return True
+    return False
+
+
+def isOctalConst(word):
+    if word[0] != '0':
+        return False
+    for i in range(len(word)):
+        if not(isOctalDigit(word[i])):
+            return False
+    return True
+
+def isHexadecimalDigit(n):
+    for i in range(16):
+        if hexadecimal_digit[i]==n:
+            return True
+    return False
+
+def isHexadecimalPrefix(n1,n2):
+    if n1=='0'and (n2=='x' or n2=='X'):
+        return True
+    return False
+
+def isHexConst(word):
+    if len(word)<2:
+        return False
+    elif not(isHexadecimalPrefix(word[0],word[1])):
+        return False
+    for i in range(2,len(word)):
+        if not(isHexadecimalDigit(word[i])):
+            return False
+    return True
+
+# 检测是否是 InstConst
+def isInstConst(word):
+    if not(isDeciamlConst(word)) and not(isOctalConst(word))and not(isHexConst):
+        return False
+    return True
