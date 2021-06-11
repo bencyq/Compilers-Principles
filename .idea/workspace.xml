@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe743fa2-2200-48ba-af36-12c8aab6e5fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Compilers-Principles.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EX1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/实验报告模板.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/所有实验专题测试用例说明.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/词法分析测试样例.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.EX1">
+  <component name="RunManager" selected="Python.main">
     <configuration name="EX1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Compilers-Principles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,8 +66,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.EX1" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.EX1" />
       </list>
     </recent_temporary>
   </component>
@@ -94,21 +83,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2539" height="413" key="GridCell.Tab.0.bottom" timestamp="1623326471131">
+    <state width="2539" height="413" key="GridCell.Tab.0.bottom" timestamp="1623400206389">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2539" height="413" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206389" />
     <state width="2539" height="413" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471131" />
-    <state width="2539" height="413" key="GridCell.Tab.0.center" timestamp="1623326471130">
+    <state width="2539" height="413" key="GridCell.Tab.0.center" timestamp="1623400206388">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2539" height="413" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206388" />
     <state width="2539" height="413" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471130" />
-    <state width="2539" height="413" key="GridCell.Tab.0.left" timestamp="1623326471130">
+    <state width="2539" height="413" key="GridCell.Tab.0.left" timestamp="1623400206388">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2539" height="413" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206388" />
     <state width="2539" height="413" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471130" />
-    <state width="2539" height="413" key="GridCell.Tab.0.right" timestamp="1623326471131">
+    <state width="2539" height="413" key="GridCell.Tab.0.right" timestamp="1623400206389">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2539" height="413" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206389" />
     <state width="2539" height="413" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471131" />
   </component>
 </project>
