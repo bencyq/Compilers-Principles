@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe743fa2-2200-48ba-af36-12c8aab6e5fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fe743fa2-2200-48ba-af36-12c8aab6e5fb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +18,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../py-project/网络编程" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="EX1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -83,6 +82,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1623720598286">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623720598286" />
     <state width="2539" height="413" key="GridCell.Tab.0.bottom" timestamp="1623400206389">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
