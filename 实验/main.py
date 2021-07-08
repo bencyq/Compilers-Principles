@@ -1,4 +1,3 @@
-# -*- coding:utf-8 -*-
 from collections import defaultdict
 
 article = []
@@ -247,7 +246,7 @@ def create_table():
             predict_table[left][data] = sentence
 
 
-def judge_LL1() -> bool:
+def judge_LL1():
     for sentence1 in Select:
         for sentence2 in Select:
             ch1 = sentence1.split(" ")[0]
@@ -287,7 +286,7 @@ def start_any(words):
                 st.add(nextword)
                 if len(Select[sentence] & st) != 0:
                     print("%-60s     %-30s      {%-20s}      {%-20s}     {%-20s}" % (
-                    tdjg, words, words[p2], sentence, str(words[p2]) + " ∈ " + "SELECT({})".format(sentence)))
+                        tdjg, words, words[p2], sentence, str(words[p2]) + " ∈ " + "SELECT({})".format(sentence)))
                     next1 = sentence.split(" ")
                     tdjg.pop(p1)
                     for index in range(len(next1) - 1, 1, -1):

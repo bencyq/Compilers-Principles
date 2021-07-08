@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe743fa2-2200-48ba-af36-12c8aab6e5fb" name="Default Changelist" comment="" />
+    <list default="true" id="fe743fa2-2200-48ba-af36-12c8aab6e5fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/实验/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/sentence1.sy" beforeDir="false" afterPath="$PROJECT_DIR$/实验/sentence1.sy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章 形式文法与形式语言.md" beforeDir="false" afterPath="$PROJECT_DIR$/第二章 形式文法与形式语言.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第四章 自顶向下分析概述.md" beforeDir="false" afterPath="$PROJECT_DIR$/第四章 自顶向下分析概述.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +24,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../py-project/网络编程" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../py-project/TSA-main" />
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="EX" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Compilers-Principles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实验" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实验/EX.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="EX1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Compilers-Principles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,6 +94,7 @@
       <list>
         <item itemvalue="Python.main" />
         <item itemvalue="Python.EX1" />
+        <item itemvalue="Python.EX" />
       </list>
     </recent_temporary>
   </component>
@@ -82,29 +110,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1623720598286">
+    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1625442969964">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623720598286" />
-    <state width="2539" height="413" key="GridCell.Tab.0.bottom" timestamp="1623400206389">
+    <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1625442969964" />
+    <state width="2539" height="507" key="GridCell.Tab.0.bottom" timestamp="1625143491821">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="413" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206389" />
+    <state width="2539" height="507" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491821" />
     <state width="2539" height="413" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471131" />
-    <state width="2539" height="413" key="GridCell.Tab.0.center" timestamp="1623400206388">
+    <state width="2539" height="507" key="GridCell.Tab.0.center" timestamp="1625143491820">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="413" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206388" />
+    <state width="2539" height="507" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491820" />
     <state width="2539" height="413" key="GridCell.Tab.0.center/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471130" />
-    <state width="2539" height="413" key="GridCell.Tab.0.left" timestamp="1623400206388">
+    <state width="2539" height="507" key="GridCell.Tab.0.left" timestamp="1625143491820">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="413" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206388" />
+    <state width="2539" height="507" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491820" />
     <state width="2539" height="413" key="GridCell.Tab.0.left/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471130" />
-    <state width="2539" height="413" key="GridCell.Tab.0.right" timestamp="1623400206389">
+    <state width="2539" height="507" key="GridCell.Tab.0.right" timestamp="1625143491820">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="413" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1623400206389" />
+    <state width="2539" height="507" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491820" />
     <state width="2539" height="413" key="GridCell.Tab.0.right/0.0.2560.1440/-1920.0.1920.1080@0.0.2560.1440" timestamp="1623326471131" />
+    <state width="2539" height="507" key="GridCell.Tab.1.bottom" timestamp="1625143491821">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="507" key="GridCell.Tab.1.bottom/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491821" />
+    <state width="2539" height="507" key="GridCell.Tab.1.center" timestamp="1625143491821">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="507" key="GridCell.Tab.1.center/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491821" />
+    <state width="2539" height="507" key="GridCell.Tab.1.left" timestamp="1625143491821">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="507" key="GridCell.Tab.1.left/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491821" />
+    <state width="2539" height="507" key="GridCell.Tab.1.right" timestamp="1625143491821">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="507" key="GridCell.Tab.1.right/0.0.2560.1440/-1920.0.1536.864@0.0.2560.1440" timestamp="1625143491821" />
   </component>
 </project>
